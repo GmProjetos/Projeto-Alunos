@@ -29,7 +29,11 @@ st.markdown(
 
 st.title("DashBoard PPGHIS (Alunos e Egressos)")
 st.sidebar.header("Menu de Filtragem: ")
-st.sidebar.write("Aqui estão alguns filtros e opções.")
+#st.sidebar.write("Aqui estão alguns filtros e opções. ")
+st.sidebar.markdown(
+    '<p style="color: red;"><b>(Para filtrar o(s) Nome(s) é preciso escolher a Formação Acadêmica)</b></p>',
+    unsafe_allow_html=True
+)
 
 # Lista de nomes para filtrar
 nomes_para_filtrar = [
