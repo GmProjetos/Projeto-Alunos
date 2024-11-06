@@ -13,6 +13,9 @@ st.markdown(
     h3, h4, h5, h6 {
         color: #B35C37;
     }
+    h2, p {
+        color: #FFFFFF;
+    }
     .stSidebar {
         background-color: #4B3D29;
     }
