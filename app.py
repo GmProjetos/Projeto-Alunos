@@ -727,7 +727,7 @@ with st.sidebar:
 
     # Define nomes disponíveis com base na graduação selecionada
     if not graduacao_selecionada:
-        nomes_disponiveis = nomes_para_filtrar  # Considera "Todos" se nada for selecionado
+        nomes_disponiveis = []  # Considera "Todos" se nada for selecionado
     else:
         nomes_disponiveis = []
         if "Mestrando" in graduacao_selecionada:
