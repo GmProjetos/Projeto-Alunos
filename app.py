@@ -702,7 +702,6 @@ excel_files = {
     "Eventos Mestrandos": pd.ExcelFile("data/Eventos_Mestrandos.xlsx"),
     "Eventos Egressos": pd.ExcelFile("data/Eventos_Egressos.xlsx"),
     "Orientações Doutorandos": pd.ExcelFile("data/orientações_Doutorandos.xlsx"),
-    "Orientações Mestrandos": pd.ExcelFile("data/orientações_Mestrandos.xlsx"),
     "Orientações Egressos": pd.ExcelFile("data/orientações_Egressos.xlsx"),
 }
 
