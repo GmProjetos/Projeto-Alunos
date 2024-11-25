@@ -950,7 +950,8 @@ for arquivo, sheets in dataframes.items():
 
 fig_bar = px.bar(
     x=list(contagens_por_ano.keys()),
-    y=list(contagens_por_ano.values())
+    y=list(contagens_por_ano.values()),
+    labels={"x": "Ano", "y": "Total Por Ano"}
 )
 
 # Atualizando as cores e estilos
